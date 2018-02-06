@@ -1,0 +1,134 @@
+name: Snake
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: Manzana.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 1
+  - image: Cabeza-N.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: Cabeza-E.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: Cabeza-S.png
+    when:
+      black: 0
+      blue: 0
+      green: 3
+      red: 0
+  - image: Cabeza-O.png
+    when:
+      black: 0
+      blue: 0
+      green: 4
+      red: 0
+  - image: CuerpoR-V.png
+    when:
+      black: 3
+      blue: 0
+      green: 1
+      red: 0
+  - image: CuerpoR-V.png
+    when:
+      black: 1
+      blue: 0
+      green: 3
+      red: 0
+  - image: CuerpoR-H.png
+    when:
+      black: 4
+      blue: 0
+      green: 2
+      red: 0
+  - image: CuerpoR-H.png
+    when:
+      black: 2
+      blue: 0
+      green: 4
+      red: 0
+  - image: CuerpoL-NE.png
+    when:
+      black: 2
+      blue: 0
+      green: 1
+      red: 0
+  - image: CuerpoL-NE.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 0
+  - image: CuerpoL-NO.png
+    when:
+      black: 4
+      blue: 0
+      green: 1
+      red: 0
+  - image: CuerpoL-NO.png
+    when:
+      black: 1
+      blue: 0
+      green: 4
+      red: 0
+  - image: CuerpoL-SE.png
+    when:
+      black: 3
+      blue: 0
+      green: 2
+      red: 0
+  - image: CuerpoL-SE.png
+    when:
+      black: 2
+      blue: 0
+      green: 3
+      red: 0
+  - image: CuerpoL-SO.png
+    when:
+      black: 4
+      blue: 0
+      green: 3
+      red: 0
+  - image: CuerpoL-SO.png
+    when:
+      black: 3
+      blue: 0
+      green: 4
+      red: 0
+  - image: Cola-N.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: Cola-E.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 0
+  - image: Cola-S.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 0
+  - image: Cola-O.png
+    when:
+      black: 4
+      blue: 0
+      green: 0
+      red: 0

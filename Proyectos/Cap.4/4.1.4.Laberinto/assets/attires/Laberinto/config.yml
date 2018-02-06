@@ -1,0 +1,140 @@
+name: Laberinto
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaHorizontal.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaVertical.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaEsquinaNO.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaEsquinaNE.png
+    when:
+      black: 4
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaEsquinaSO.png
+    when:
+      black: 5
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaEsquinaSE.png
+    when:
+      black: 6
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaTNorte.png
+    when:
+      black: 7
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaTEste.png
+    when:
+      black: 8
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaTSur.png
+    when:
+      black: 9
+      blue: 0
+      green: 0
+      red: 0
+  - image: JaulaTOeste.png
+    when:
+      black: 10
+      blue: 0
+      green: 0
+      red: 0
+  - image: PuertaHorizontalSola.png
+    when:
+      black: 0
+      blue: 0
+      green: 3
+      red: 0
+  - image: PuertaVerticalSola.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: PuertaHorizontalYRaton.png
+    when:
+      black: 0
+      blue: 1
+      green: 3
+      red: 0
+  - image: PuertaVerticalYRaton.png
+    when:
+      black: 0
+      blue: 1
+      green: 2
+      red: 0
+  - image: RatonYFlechaAlN.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 1
+  - image: RatonYFlechaAlE.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 2
+  - image: RatonYFlechaAlS.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 3
+  - image: RatonYFlechaAlO.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 4
+  - image: FlechaAlN.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 1
+  - image: FlechaAlE.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 2
+  - image: FlechaAlS.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 3
+  - image: FlechaAlO.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 4

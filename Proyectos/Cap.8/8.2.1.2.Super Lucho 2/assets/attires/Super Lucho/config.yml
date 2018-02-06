@@ -1,0 +1,62 @@
+name: Super Lucho
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: Camino.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: Meta.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: LuzApagada.png
+    when:
+      black: 0
+      blue: 1
+      green: 1
+      red: 0
+  - image: LuzPrendida.png
+    when:
+      black: 0
+      blue: 2
+      green: 1
+      red: 0
+  - image: LuchoAfuera.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: LuchoEnCamino.png
+    when:
+      black: 1
+      blue: 0
+      green: 1
+      red: 0
+  - image: LuchoEnMeta.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 0
+  - image: LuchoEnLuzApagada.png
+    when:
+      black: 1
+      blue: 1
+      green: 1
+      red: 0
+  - image: LuchoEnLuzPrendida.png
+    when:
+      black: 1
+      blue: 2
+      green: 1
+      red: 0

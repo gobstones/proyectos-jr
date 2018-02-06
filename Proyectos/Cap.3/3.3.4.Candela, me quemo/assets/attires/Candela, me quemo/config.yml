@@ -1,0 +1,44 @@
+name: 'Candela, me quemo'
+rules:
+  - image: MatafuegoApagando.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      head: false
+      red: 0
+  - image: FuegoSolo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      head: false
+      red: 1
+  - image: CenizasSolas.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      head: false
+      red: 0
+  - image: MatafuegoApagando.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      head: true
+      red: 0
+  - image: MatafuegoYFuego.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      head: true
+      red: 1
+  - image: MatafuegoYCenizas.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      head: true
+      red: 0

@@ -1,0 +1,20 @@
+name: Cajones y llaves
+rules:
+  - image: CajonCerrado.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: '*'
+  - image: CajonAbierto.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: CajonAbiertoConLlave.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 1
