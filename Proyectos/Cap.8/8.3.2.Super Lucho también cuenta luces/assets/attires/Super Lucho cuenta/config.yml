@@ -1,0 +1,116 @@
+name: Super Lucho cuenta
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: Camino.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: Meta.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: LuzApagada.png
+    when:
+      black: 0
+      blue: 1
+      green: 1
+      red: 0
+  - image: LuzPrendida.png
+    when:
+      black: 0
+      blue: 2
+      green: 1
+      red: 0
+  - image: LuchoAfuera.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: LuchoEnCamino.png
+    when:
+      black: 1
+      blue: 0
+      green: 1
+      red: 0
+  - image: LuchoEnLuzApagada.png
+    when:
+      black: 1
+      blue: 1
+      green: 1
+      red: 0
+  - image: LuchoEnLuzPrendida.png
+    when:
+      black: 1
+      blue: 2
+      green: 1
+      red: 0
+  - image: LuchoMeta-0.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 0
+  - image: LuchoMeta-1.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 1
+  - image: LuchoMeta-2.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 2
+  - image: LuchoMeta-3.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 3
+  - image: LuchoMeta-4.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 4
+  - image: LuchoMeta-5.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 5
+  - image: LuchoMeta-6.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 6
+  - image: LuchoMeta-7.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 7
+  - image: LuchoMeta-8.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 8
+  - image: LuchoMeta-9.png
+    when:
+      black: 1
+      blue: 0
+      green: 2
+      red: 9

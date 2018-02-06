@@ -1,0 +1,38 @@
+name: Lucho enciende las luces
+rules:
+  - image: FondoLucho.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: Lucho.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 0
+  - image: LuzApagada.png
+    when:
+      black: 0
+      blue: 1
+      green: 0
+      red: 0
+  - image: LuzPrendida.png
+    when:
+      black: 0
+      blue: 2
+      green: 0
+      red: 0
+  - image: LuchoLuzApagada.png
+    when:
+      black: 1
+      blue: 1
+      green: 0
+      red: 0
+  - image: LuchoLuzPrendida.png
+    when:
+      black: 1
+      blue: 2
+      green: 0
+      red: 0

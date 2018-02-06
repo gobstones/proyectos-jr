@@ -1,0 +1,92 @@
+name: Penales
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: DelanteroSinPelota.png
+    when:
+      black: 0
+      blue: '*'
+      green: '*'
+      red: 4
+  - image: DelanteroConPelota.png
+    when:
+      black: 1
+      blue: '*'
+      green: '*'
+      red: 4
+  - image: ArcoSoloAIzq.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 1
+  - image: ArcoSoloCentro.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 2
+  - image: ArcoSoloDer.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 3
+  - image: ArcoYPelotaAIzq.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 1
+  - image: ArcoYPelotaCentro.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 2
+  - image: ArcoYPelotaDer.png
+    when:
+      black: 1
+      blue: 0
+      green: 0
+      red: 3
+  - image: ArcoAIzqConArquero.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 1
+  - image: ArcoCentroConArquero.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 2
+  - image: ArcoDerConArquero.png
+    when:
+      black: 2
+      blue: 0
+      green: 0
+      red: 3
+  - image: ArcoPelotaYArqueroAIzq.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 1
+  - image: ArcoPelotaYArqueroCentro.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 2
+  - image: ArcoPelotaYArqueroDer.png
+    when:
+      black: 3
+      blue: 0
+      green: 0
+      red: 3

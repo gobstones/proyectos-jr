@@ -1,0 +1,32 @@
+name: Flecha
+rules:
+  - image: Fondo.png
+    when:
+      black: 0
+      blue: 0
+      green: 0
+      red: 0
+  - image: Cuerpo.png
+    when:
+      black: 0
+      blue: 0
+      green: 1
+      red: 0
+  - image: PuntaSuperior.png
+    when:
+      black: 0
+      blue: 0
+      green: 2
+      red: 0
+  - image: PuntaInferior.png
+    when:
+      black: 0
+      blue: 0
+      green: 3
+      red: 0
+  - image: PuntaFrente.png
+    when:
+      black: 0
+      blue: 0
+      green: 4
+      red: 0

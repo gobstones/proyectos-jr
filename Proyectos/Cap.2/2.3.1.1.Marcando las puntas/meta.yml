@@ -1,0 +1,30 @@
+attire:
+  active: null
+  user_permissions:
+    can_toggle_visibility: true
+  visible: false
+blocks:
+  disabled:
+    - Sacar
+    - Mover
+  visible:
+    - Poner
+    - Mover
+    - Sacar
+    - IrAlBorde
+    - Color
+    - Direccion
+board:
+  active: 1
+  initial_board_source: random
+  user_permissions:
+    can_change_source: true
+    can_edit_board: false
+  visible_edition: true
+execution_speed:
+  active: instantaneous
+  user_permissions:
+    can_change_speed: true
+library:
+  visible: false
+name: Marcando las puntas
