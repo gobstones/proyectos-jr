@@ -1,0 +1,156 @@
+function hayCeldaSiguiente__(d1,d2) {
+    return (puedeMover(d1) || puedeMover(d2))
+}
+
+procedure IrACeldaSiguiente___(d1,d2,ancho) {
+    if (puedeMover(d1)) 
+          { Mover(d1) }
+     else { Mover(d2)  Mover__Veces(opuesto(d1), ancho) } 
+}
+
+function distanciaAlBorde_(d) {
+  pasosAlBorde := 0
+  while (puedeMover(d)) {
+      pasosAlBorde := pasosAlBorde + 1
+      Mover(d)
+  }
+  return (pasosAlBorde)
+}
+
+procedure MoverSiPuede_(d)   { if (puedeMover(d)) { Mover(d) } }
+procedure SacarTodas_(color) { Sacar__Veces(color, nroBolitas(color)) }
+
+procedure Poner__Veces(color, n) { repeat(n) { Poner(color) } }
+procedure Sacar__Veces(color, n) { repeat(n) { Sacar(color) } }
+procedure Mover__Veces(dir, n)   { repeat(n) { Mover(dir) } }
+
+//procedure DecirGanaste() {
+//  IrAlBorde(Sur)
+//  IrAlBorde(Oeste)
+//  VaciarTablero()
+//  Mover__Veces(Norte, 5)
+//  Poner__Veces(Negro, 2) 
+//  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 28)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  7)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  1)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 14)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  1)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 20)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 21)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  5)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 29)  
+//  IrAlBorde(Oeste)
+//}
+//
+//procedure DecirPerdiste() {
+//  IrAlBorde(Sur)
+//  IrAlBorde(Oeste)
+//  VaciarTablero()
+//  Mover__Veces(Norte, 5)
+//  Poner__Veces(Rojo, 2) 
+//  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  7)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  1)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 13)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  5)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  0)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 16)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 23)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro,  5)  Mover(Este)
+//  Poner__Veces(Azul, 7)  Poner__Veces(Negro, 19)  
+//  IrAlBorde(Oeste)
+//}
+//
+//procedure DibujarTableroInicial() {
+//  IrAlBorde(Sur)
+//  IrAlBorde(Oeste)
+//  VaciarTablero()
+//  // FILA 1
+//  Poner__Veces(Azul,  5)              Mover(Este)
+//  repeat (8) { Poner__Veces(Azul, 1)  Mover(Este) } 
+//  Poner__Veces(Azul,  4)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 2
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  repeat (7) { Poner__Veces(Verde, 1) Mover(Este) } 
+//  Poner__Veces(Negro, 4)              Mover(Este)
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 3
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  5)              Mover(Este)
+//  Poner__Veces(Azul,  1)              Mover(Este)
+//  Poner__Veces(Azul,  4)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  5)              Mover(Este)
+//  Poner__Veces(Azul,  4)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 4
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  6)              Mover(Este)
+//  Poner__Veces(Azul,  1)              Mover(Este)
+//  Poner__Veces(Azul,  3)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 5
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  repeat (5) { Poner__Veces(Verde, 1) Mover(Este) } 
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 6
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  5)              Mover(Este)
+//  Poner__Veces(Azul,  1)              Mover(Este)
+//  Poner__Veces(Azul,  4)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 7
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  6)              Mover(Este)
+//  Poner__Veces(Azul,  1)              Mover(Este)
+//  Poner__Veces(Azul,  3)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  6)              Mover(Este)
+//  Poner__Veces(Azul,  3)              Mover(Este)
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 8
+//  Poner__Veces(Azul,  2)              Mover(Este)
+//  Poner__Veces(Rojo,  2)              
+//  Poner__Veces(Verde, 1)              Mover(Este)
+//  repeat (7) { Poner__Veces(Verde, 1) Mover(Este) } 
+//  Poner__Veces(Azul,  2)
+//  IrAlBorde(Oeste)                    Mover(Norte)
+//  // FILA 9
+//  Poner__Veces(Azul,  6)              Mover(Este)
+//  repeat (8) { Poner__Veces(Azul, 1)  Mover(Este) } 
+//  Poner__Veces(Azul,  3)
+//  Mover(Oeste) IrAlBorde(Sur) Mover(Norte)
+//}
+
+function opuesto_(dir) {
+    if (dir == Norte) { ret := Sur   }
+    if (dir == Este)  { ret := Oeste }
+    if (dir == Sur)   { ret := Norte }
+    if (dir == Oeste) { ret := Este  }
+    return (ret)    
+}

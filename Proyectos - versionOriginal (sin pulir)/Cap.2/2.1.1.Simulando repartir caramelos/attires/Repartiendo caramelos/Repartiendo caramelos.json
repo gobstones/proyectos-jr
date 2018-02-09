@@ -1,0 +1,95 @@
+{
+  "name": "Repartiendo caramelos",
+  "rules": [
+    {
+      "when": {
+        "blue": 0,
+        "black": 2,
+        "red": 0,
+        "green": 0
+      },
+      "image": "EstudianteAntes-conDocente.png"
+    },
+    {
+      "when": {
+        "blue": 0,
+        "black": 0,
+        "red": 0,
+        "green": 0
+      },
+      "image": "EstudianteAntes.png"
+    },
+    {
+      "when": {
+        "blue": 0,
+        "black": 2,
+        "red": 0,
+        "green": 1
+      },
+      "image": "EstudianteYCaramelo-conDocente.png"
+    },
+    {
+      "when": {
+        "blue": 0,
+        "black": 0,
+        "red": 0,
+        "green": 1
+      },
+      "image": "EstudianteYCaramelo.png"
+    },
+    {
+      "when": {
+        "blue": 1,
+        "black": 2,
+        "red": 1,
+        "green": 0
+      },
+      "image": "EstudianteYPapel-conDocente.png"
+    },
+    {
+      "when": {
+        "blue": 1,
+        "black": 0,
+        "red": 1,
+        "green": 0
+      },
+      "image": "EstudianteYPapel.png"
+    },
+    {
+      "when": {
+        "blue": 1,
+        "black": 2,
+        "red": 0,
+        "green": 0
+      },
+      "image": "EstudianteFeliz-conDocente.png"
+    },
+    {
+      "when": {
+        "blue": 1,
+        "black": 0,
+        "red": 0,
+        "green": 0
+      },
+      "image": "EstudianteFeliz.png"
+    },
+    {
+      "when": {
+        "blue": 0,
+        "black": 3,
+        "red": 0,
+        "green": 0
+      },
+      "image": "Escritorio-conDocente.png"
+    },
+    {
+      "when": {
+        "blue": 0,
+        "black": 1,
+        "red": 0,
+        "green": 0
+      },
+      "image": "Escritorio.png"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Apagar la luz, o prenderla",
+  "rules": [
+    { "when": { "blue": 0, "black": 0, "red": 0, "green": 0 }, "image": "Fondo.png" }
+  , { "when": { "blue": 1, "black": 0, "red": 0, "green": 0 }, "image": "LuzPrendida.png" }
+  , { "when": { "blue": 0, "black": 1, "red": 0, "green": 0 }, "image": "LuzApagada.png" }
+  ]
+}

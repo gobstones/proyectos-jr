@@ -1,0 +1,47 @@
+﻿program {
+  ...
+}
+
+procedure EncenderLasFilasDeLuces() {
+  ...
+}
+
+procedure EncenderUnaFilaYVolver() {
+  ...
+}
+
+procedure EncenderLuzSiCorresponde() {
+  ...
+}
+
+procedure MoverALuchoAlNorte() {
+  if (puedeMover(Oeste)) {
+    BOOM("No estoy al inicio de una fila")
+  }
+  else {
+    ...
+  }
+}
+
+procedure VolverALuchoAlBordeOeste() {
+  ...
+}
+
+procedure MoverALuchoAlEste() {
+  ...
+}
+
+procedure MoverALuchoAlOeste() {
+  ...
+}
+
+procedure EncenderLuz() {
+  if        (not(hayLuz()))    { BOOM("No hay luz para prender") }
+  else { if (hayLuzPrendida()) { BOOM("La luz ya está prendida") }
+  else 
+    { ... }}
+}
+
+function hayLuzApagada()  { return (...) }
+function hayLuzPrendida() { return (...) }
+function hayLuz() { return (...) }

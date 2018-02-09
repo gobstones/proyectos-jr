@@ -1,0 +1,1 @@
+procedure Poner__Veces(color,cantidad) { repeat(cantidad) { Poner(color) } }

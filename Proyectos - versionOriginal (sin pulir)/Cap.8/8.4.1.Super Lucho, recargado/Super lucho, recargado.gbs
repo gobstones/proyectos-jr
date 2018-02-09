@@ -1,0 +1,28 @@
+﻿program { ...() }
+
+procedure EncenderYContar() {
+  ...
+}
+
+procedure IrAlInicioDelReocrrido() {
+  ...
+}
+
+procedure PasarALaSiguienteCelda() {
+  ...
+}
+
+function esLaÚltimaCelda() { return (...) }
+function esLuzApagada() { return (...) }
+procedure EncenderLuz() { ... }
+
+procedure PonerALucho() { ... }
+procedure SacarALucho() { ... }
+procedure MoverALucho(direcciónAMover) {
+  ...
+}
+
+procedure LlevarALuchoAlBorde(direcciónDelBorde) {
+  ...
+}
+

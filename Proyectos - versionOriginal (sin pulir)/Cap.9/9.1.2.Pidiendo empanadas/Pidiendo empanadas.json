@@ -1,0 +1,47 @@
+{
+  "name": "Pidiendo empanadas",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": false }
+  },
+  "attire": { "active": "Empanadas", "visible": true,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Asignacion"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "Mis funciones"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "OperadorDeNegacion", "OperadorLogico"
+               , "OperadorSiguiente", "OperadorPrevio", "OperadorOpuesto" 
+               , "DefinicionDeAsociacionDeTeclaEspecial"
+               , "DefinicionDeAsociacionDeTeclaLetra"
+               , "DefinicionDeProcedimientoSimple"
+               , "DefinicionDeProcedimientoParametrizado"
+               , "DefinicionDeFuncionSimple"
+               , "DefinicionDeFuncionSimpleParametrizada"
+               , "DefinicionDeFuncionParametrizada"
+    ],            
+	"disabled": [ "BOOM"
+                , "AlternativaCompleta"
+                , "Asignacion"
+                , "Mis funciones"
+                , "OperadorNumerico"
+                , "OperadorDeNegacion", "OperadorLogico"
+                , "OperadorSiguiente", "OperadorPrevio", "OperadorOpuesto" 
+                , "DefinicionDeFuncionSimple"
+                , "DefinicionDeFuncionSimpleParametrizada"
+                , "DefinicionDeFuncionParametrizada"
+                ]
+  }
+}

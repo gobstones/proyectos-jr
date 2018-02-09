@@ -1,0 +1,18 @@
+program {
+    
+}
+
+procedure EntrenarAlBeto() { ... }
+
+procedure PatearYVolver() { ... }
+
+procedure PatearLaPelota() {
+  MoverElPieDelBeto()
+  repeat (3) { MoverLaPelotaAl_(Este) }
+  repeat (3) { Mover(Oeste) }
+}
+
+procedure IrHastaLaPelota() { ... }
+
+procedure Volver() { ... }
+

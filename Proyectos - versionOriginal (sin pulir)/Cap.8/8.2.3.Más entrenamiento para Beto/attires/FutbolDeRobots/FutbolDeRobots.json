@@ -1,0 +1,13 @@
+{
+  "name": "Fútbol de robots",
+  "rules": [
+    { "when": { "blue": 0, "black": 0, "red": 0, "green": 0 }, "image": "Fondo.png" }
+  , { "when": { "blue": 1, "black": 0, "red": 0, "green": 0 }, "image": "RobotSoloParado.png" }
+  , { "when": { "blue": 2, "black": 0, "red": 0, "green": 0 }, "image": "RobotSoloPateando.png" }
+  , { "when": { "blue": 0, "black": 1, "red": 0, "green": 0 }, "image": "FutbolSolo.png" }
+  , { "when": { "blue": 0, "black": 0, "red": 1, "green": 0 }, "image": "ArcoSolo.png" }
+  , { "when": { "blue": 1, "black": 1, "red": 0, "green": 0 }, "image": "RobotParadoYFutbol.png" }
+  , { "when": { "blue": 2, "black": 1, "red": 0, "green": 0 }, "image": "RobotPateandoYFutbol.png" }
+  , { "when": { "blue": 0, "black": 1, "red": 1, "green": 0 }, "image": "FutbolYArco.png" }
+  ]
+}

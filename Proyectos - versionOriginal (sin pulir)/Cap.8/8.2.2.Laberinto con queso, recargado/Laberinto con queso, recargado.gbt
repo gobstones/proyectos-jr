@@ -1,0 +1,13 @@
+procedure MoverAlRatónAl_(dir) {
+ 	if (nroBolitas(Azul)/=1) { BOOM("No está el ratón")   }
+  	if (nroBolitas(Verde)>2) { BOOM("Estoy en la salida") }
+ 	Sacar(Azul)
+ 	Mover(dir)
+ 	if (hayBolitas(Negro))    { BOOM("Choque contra la pared") }
+ 	Poner(Azul)
+}
+
+procedure SacarLaFlecha() {
+   if (not hayBolitas(Rojo)) { BOOM("No hay flecha en esta celda") }
+   repeat(nroBolitas(Rojo)) { Sacar(Rojo) } 
+}

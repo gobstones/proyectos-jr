@@ -1,0 +1,24 @@
+{
+  "name": "La gran aventura del mar encantado",
+  "library": { "visible": true },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "high",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": "La gran aventura", "visible": true,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "Color", "Direccion"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
+    ],            
+	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+                , "Color"
+                ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Cajones y llaves", 
+  "rules": [
+     { "when": { "black": 1, "red": "*", "green": 0, "blue": 0 }, "image": "CajonCerrado.png" }
+   , { "when": { "black": 0, "red": 0, "green": 0, "blue": 0 }, "image": "CajonAbierto.png" }
+   , { "when": { "black": 0, "red": 1, "green": 0, "blue": 0 }, "image": "CajonAbiertoConLlave.png" }
+  ] 
+}

@@ -1,0 +1,25 @@
+﻿GBB/1.0
+size 8 8
+cell 5 3 Azul 0 Negro 0 Rojo 0 Verde 4
+cell 4 3 Azul 0 Negro 2 Rojo 0 Verde 0
+cell 7 7 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 5 7 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 3 7 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 1 7 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 6 6 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 4 6 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 2 6 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 0 6 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 4 5 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 3 5 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 4 2 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 3 2 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 6 1 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 4 1 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 2 1 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 0 1 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 7 0 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 5 0 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 3 0 Azul 0 Negro 0 Rojo 1 Verde 0
+cell 1 0 Azul 0 Negro 0 Rojo 1 Verde 0
+head 5 3

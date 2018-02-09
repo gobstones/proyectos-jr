@@ -1,0 +1,11 @@
+﻿program {
+  ImitarNegrasYAzules()
+}
+
+procedure ImitarNegrasYAzules() {
+  repeat(...) {
+     ...
+  }
+}
+
+

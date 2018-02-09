@@ -1,0 +1,39 @@
+{
+  "name": "La luz está prendida vs. hay bolitas: mi elección es clara",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": null, "visible": false,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "Mis funciones"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "not", "OperadorDeNegacion"
+               , "siguiente", "previo", "opuesto"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
+               , "procedures_defreturn", "Definicion de funciones simples"
+    ],            
+	"disabled": [ "IrAlBorde"
+                , "RepeticionSimple"
+                , "AlternativaSimple"
+                , "Numero"
+                , "puedeMover", "nroBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "not", "OperadorDeNegacion"
+                , "siguiente", "previo", "opuesto"
+                ]
+  }
+}

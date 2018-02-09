@@ -1,0 +1,34 @@
+interactive program {
+  K_ARROW_LEFT  -> { MoverSiSePuede(Oeste) }
+  K_ARROW_RIGHT -> { MoverSiSePuede(Este)  }
+  K_ARROW_UP    -> { MoverSiSePuede(Norte) }
+  K_ARROW_DOWN  -> { MoverSiSePuede(Sur)   }
+  K_ENTER       -> { NuevaLínea() }
+  K_SPACE       -> { PonerCarácter(códigoDeEspacio()) }
+  K_A -> { PonerCarácter(códigoDeLetraA()) }
+  ...
+}
+
+procedure PonerCarácter(códigoDeCarácterAPoner) {
+  ...
+}
+
+procedure AvanzarCursor() {
+  ...
+}
+
+procedure NuevaLínea() {
+  ...
+}
+
+procedure LimpiarCelda() {
+  ...
+}
+
+procedure MoverSiSePuede(dirección) {
+  ...
+}
+
+function códigoDeEspacio() { return (0) }
+
+function códigoDeLetraA() { return ( 1) }

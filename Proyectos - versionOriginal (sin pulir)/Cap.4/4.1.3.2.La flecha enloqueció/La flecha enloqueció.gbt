@@ -1,0 +1,18 @@
+function dondeApuntaLaFlecha() {
+   if         (nroBolitas(Rojo) == 1) { ret := Norte }
+	else { if (nroBolitas(Rojo) == 2) { ret := Este  }
+    else { if (nroBolitas(Rojo) == 3) { ret := Sur   }
+    else { if (nroBolitas(Rojo) == 4) { ret := Oeste }
+    else { BOOM("No hay una flecha en esta celda") }
+    }}}
+    return (ret)
+}
+
+procedure MoverAlRatónA_(dir) {
+ 	if (nroBolitas(Azul)/=1) { BOOM("No está el ratón")   }
+  	if (nroBolitas(Verde)>1) { BOOM("Estoy en la salida") }
+ 	Sacar(Azul)
+ 	Mover(dir)
+ 	if (hayBolitas(Negro))    { BOOM("Choque contra la pared") }
+ 	Poner(Azul)
+}

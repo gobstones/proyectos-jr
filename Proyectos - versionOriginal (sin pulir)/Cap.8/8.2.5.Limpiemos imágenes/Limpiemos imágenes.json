@@ -1,0 +1,41 @@
+{
+  "name": "Limpiemos imágenes",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "high",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": "RGB con cenizas", "visible": true,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple", "RepeticionCondicional"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "Mis funciones"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "not", "OperadorDeNegacion"
+               , "OperadorLogico"
+               , "siguiente", "previo", "opuesto"
+               , "DefinicionDeProcedimientoSimple"
+               , "DefinicionDeProcedimientoParametrizado"
+               , "DefinicionDeFuncionSimple"
+    ],            
+	"disabled": [ "Poner", "Sacar", "BOOM"
+                , "RepeticionSimple"
+                , "AlternativaSimple"
+                , "Numero"
+                , "hayBolitas", "nroBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "siguiente", "previo", "opuesto"
+                , "DefinicionDeProcedimientoParametrizado"
+                ]
+  }
+}

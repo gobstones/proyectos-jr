@@ -1,0 +1,35 @@
+{
+  "name": "No, no y no",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": "Fútbol de robots", "visible": false,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "not", "OperadorDeNegacion"
+               , "siguiente", "previo", "opuesto"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
+    ],            
+	"disabled": [ "Poner", "Sacar", "IrAlBorde"
+                , "Color"
+                , "AlternativaCompleta"
+                , "puedeMover", "hayBolitas", "nroBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "siguiente", "previo", "opuesto"
+                ]
+  }
+}

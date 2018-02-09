@@ -1,0 +1,33 @@
+{
+"name": "Letras",
+"rules": [
+  { "when": { "blue": 0, "black":  0, "red": 0, "green": 0 }, "image": "Espacio.png" }
+, { "when": { "blue": 0, "black":  1, "red": 0, "green": 0 }, "image": "A.png" }
+, { "when": { "blue": 0, "black":  2, "red": 0, "green": 0 }, "image": "B.png" }
+, { "when": { "blue": 0, "black":  3, "red": 0, "green": 0 }, "image": "C.png" }
+, { "when": { "blue": 0, "black":  4, "red": 0, "green": 0 }, "image": "D.png" }
+, { "when": { "blue": 0, "black":  5, "red": 0, "green": 0 }, "image": "E.png" }
+, { "when": { "blue": 0, "black":  6, "red": 0, "green": 0 }, "image": "F.png" }
+, { "when": { "blue": 0, "black":  7, "red": 0, "green": 0 }, "image": "G.png" }
+, { "when": { "blue": 0, "black":  8, "red": 0, "green": 0 }, "image": "H.png" }
+, { "when": { "blue": 0, "black":  9, "red": 0, "green": 0 }, "image": "I.png" }
+, { "when": { "blue": 0, "black": 10, "red": 0, "green": 0 }, "image": "J.png" }
+, { "when": { "blue": 0, "black": 11, "red": 0, "green": 0 }, "image": "K.png" }
+, { "when": { "blue": 0, "black": 12, "red": 0, "green": 0 }, "image": "L.png" }
+, { "when": { "blue": 0, "black": 13, "red": 0, "green": 0 }, "image": "M.png" }
+, { "when": { "blue": 0, "black": 14, "red": 0, "green": 0 }, "image": "N.png" }
+, { "when": { "blue": 0, "black": 15, "red": 0, "green": 0 }, "image": "Ñ.png" }
+, { "when": { "blue": 0, "black": 16, "red": 0, "green": 0 }, "image": "O.png" }
+, { "when": { "blue": 0, "black": 17, "red": 0, "green": 0 }, "image": "P.png" }
+, { "when": { "blue": 0, "black": 18, "red": 0, "green": 0 }, "image": "Q.png" }
+, { "when": { "blue": 0, "black": 19, "red": 0, "green": 0 }, "image": "R.png" }
+, { "when": { "blue": 0, "black": 20, "red": 0, "green": 0 }, "image": "S.png" }
+, { "when": { "blue": 0, "black": 21, "red": 0, "green": 0 }, "image": "T.png" }
+, { "when": { "blue": 0, "black": 22, "red": 0, "green": 0 }, "image": "U.png" }
+, { "when": { "blue": 0, "black": 23, "red": 0, "green": 0 }, "image": "V.png" }
+, { "when": { "blue": 0, "black": 24, "red": 0, "green": 0 }, "image": "W.png" }
+, { "when": { "blue": 0, "black": 25, "red": 0, "green": 0 }, "image": "X.png" }
+, { "when": { "blue": 0, "black": 26, "red": 0, "green": 0 }, "image": "Y.png" }
+, { "when": { "blue": 0, "black": 27, "red": 0, "green": 0 }, "image": "Z.png" }
+]
+}

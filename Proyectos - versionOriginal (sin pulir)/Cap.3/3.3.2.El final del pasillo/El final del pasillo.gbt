@@ -1,0 +1,7 @@
+﻿procedure MoverABetoAl_(dir) {
+    if (not hayBolitas(Azul)) { BOOM("Beto no está en esta celda") }
+    Sacar(Azul)
+    Mover(dir)
+    if (hayBolitas(Negro))    { BOOM("Tocaste una pared explosiva") }
+    Poner(Azul)
+}

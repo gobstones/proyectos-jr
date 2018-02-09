@@ -1,0 +1,21 @@
+program { 
+    RepartirCaramelos()
+    RecolectarPapeles()
+}
+
+procedure RepartirCaramelos() {
+    repeat (19) {
+        IrAlPróximoEstudiante()
+        DarCaramelo() 
+    }
+    IrAlEscritorio()
+    ComerCaramelos()
+}
+
+procedure RecolectarPapeles() {    
+    repeat (19) {
+        IrAlPróximoEstudiante()
+        RecolectarPapel() 
+    }
+    IrAlEscritorio()
+}

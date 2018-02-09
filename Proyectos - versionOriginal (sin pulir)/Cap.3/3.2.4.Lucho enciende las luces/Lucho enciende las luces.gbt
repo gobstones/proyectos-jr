@@ -1,0 +1,11 @@
+procedure EncenderLuz() { 
+  if (not hayBolitas(Negro)) { BOOM("No está lucho en este lugar para prender la luz") }
+  if (nroBolitas(Azul) == 1)         { Poner(Azul) } 
+   else { if (nroBolitas(Azul) == 2) { BOOM("La luz ya está encendida") }
+   else                              { BOOM("No hay luz en esta celda") }}
+}
+
+procedure MoverALuchoAl_(dir) { 
+   if (not hayBolitas(Negro)) { BOOM("No está lucho en este lugar") }
+   Sacar(Negro) Mover(dir) Poner(Negro) 
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Poner muchas bolitas se vuelve incómodo",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": null, "visible": false,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "Color", "Direccion"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
+    ],            
+	"disabled": [ 
+                ]
+  }
+}

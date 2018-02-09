@@ -1,0 +1,17 @@
+{
+  "name": "Bolitas, caramelos o tomates",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "medium",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": "Sembrando tomates", "visible": true,
+    "user_permissions": { "can_toggle_visibility": true }
+  },
+  "blocks": {
+	"visible": ["Poner"],
+	"disabled": ["Poner"]
+  }
+}
