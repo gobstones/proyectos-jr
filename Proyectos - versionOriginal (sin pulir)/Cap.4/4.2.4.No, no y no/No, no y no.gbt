@@ -1,8 +1,0 @@
-function hayPelota() { return(hayBolitas(Negro)) }
-
-procedure AgregarPelota() {
-	if (hayPelota()) 
-		{ BOOM("¡No puedo poner una pelota donde ya había una!") }
-	else 
-		{ Poner(Negro) }
-}

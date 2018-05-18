@@ -1,8 +1,0 @@
-﻿program {
-}
-
-procedure AvanzarCursor() { ... }
-procedure Espacio() { ... }
-
-procedure A() { Poner__Veces(Negro,  1) AvanzarCursor() }
-

@@ -1,3 +1,0 @@
-procedure SacarTodas_(c) { 
-   repeat (nroBolitas(c)) { Sacar(c) } 
-}
