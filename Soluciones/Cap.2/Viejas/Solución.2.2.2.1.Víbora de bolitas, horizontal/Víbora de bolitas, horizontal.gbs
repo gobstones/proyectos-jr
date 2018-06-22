@@ -1,8 +1,0 @@
-program {
-    Poner(Verde)
-    Mover(Este)
-    Poner(Verde)
-    Mover(Este)
-    Poner(Verde)
-    Mover(Este)
-}
